@@ -1,0 +1,32 @@
+{
+  "name": "The Rick and Morty!",
+  "short_name": "TheRickandMorty",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF",
+  "theme_color": "#FFF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/public/icons8-рик-санчес-100.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "/public/icons8-рик-санчес-200.png",
+      "type": "image/png",
+      "sizes": "200x200",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icons8-рик-санчес-400.png",
+      "type": "image/png",
+      "sizes": "400x400"
+    },
+    {
+      "src": "/public/icons8-рик-санчес-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

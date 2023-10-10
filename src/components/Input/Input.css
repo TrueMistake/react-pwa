@@ -1,0 +1,133 @@
+.input-block{
+  margin-bottom: 10px;
+}
+.wrapper .input{
+  padding: 0;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+
+.input-block.xs .description,
+.input-block.xs .error-message{
+  font-size: 10px;
+}
+.input-block.xs .label,
+.input-block.xs .input{
+  font-size: 12px;
+}
+.input-block.sm .description,
+.input-block.sm .error-message{
+  font-size: 12px;
+}
+.input-block.sm .label,
+.input-block.sm .input{
+  font-size: 14px;
+}
+.input-block.md .description,
+.input-block.md .error-message{
+  font-size: 14px;
+}
+.input-block.md .label,
+.input-block.md .input{
+  font-size: 16px;
+}
+.input-block.lg .description,
+.input-block.lg .error-message{
+  font-size: 16px;
+}
+.input-block.lg .label,
+.input-block.lg .input{
+  font-size: 18px;
+}
+.input-block.xl .description,
+.input-block.xl .error-message{
+  font-size: 18px;
+}
+.input-block.xl .label,
+.input-block.xl .input{
+  font-size: 20px;
+}
+
+.filled{
+  background: rgb(241, 243, 245);
+}
+.input.unstyled{
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.label{
+  display: inline-block;
+  font-weight: bold;
+  word-break: break-word;
+  cursor: default;
+}
+.label span{
+  color: red;
+}
+.description{
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  word-break: break-word;
+  color: rgb(134, 142, 150);
+  display: block;
+  margin-bottom: 5px;
+}
+.input-wrap{
+  position: relative;
+}
+.input-wrap div{
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.input{
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 1px solid;
+  padding: 5px 10px!important;
+  margin: 0!important;
+  border-radius: 2px;
+}
+.input.icon{
+  padding-left: 30px;
+}
+.input.icon svg {
+  stroke: #adb5bd;
+}
+.error-message{
+  text-decoration: none;
+  word-break: break-word;
+  color: rgb(250, 82, 82);
+  font-size: 10px;
+  line-height: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.Rxs{
+  border-radius: 2px;
+}
+.Rsm{
+  border-radius: 4px;
+}
+.Rmd{
+  border-radius: 8px;
+}
+.Rlg{
+  border-radius: 16px;
+}
+.Rxl{
+  border-radius: 32px;
+}
+
+
+
+.error{
+  border: 1px solid red;
+}
+.error::-webkit-input-placeholder {color:red;}

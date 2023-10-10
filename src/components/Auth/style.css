@@ -1,0 +1,17 @@
+.welcome{
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.welcome p{
+  margin-top: 0;
+}
+.welcome button,
+.welcome a{
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  background: transparent;
+}
